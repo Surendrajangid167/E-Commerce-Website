@@ -1,0 +1,144 @@
+.m{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.m1{    
+    height: 3110px;
+    width: 1040px;
+    background-color:rgb(60,60,60);
+    position:relative;
+    flex-direction: row;
+}
+.m3{
+    background-color:white;
+    height:3000px;
+    width:940px;
+    margin-left:50px;
+    margin-top:50px;
+    position:relative;
+}
+.m4{
+    background-color: white;
+    border:1px solid rgba(120,120,120,0.3);
+}
+.mf{
+    display: flex;
+    margin-left:43rem;
+    gap:1rem;
+    margin-top:-2.8rem;
+}
+.m5{
+    margin-left:14rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-align: center;
+}
+.m6{
+    text-align: center;
+    margin-right:2rem;
+}
+.m19{
+    border-top:3px solid rgba(210,210,210,0.8);
+    border-bottom:3px solid rgba(210,210,210,0.8);
+    margin-left:20px;
+    padding:35px;
+    padding-bottom: 17px;
+}
+
+.m7{
+    display: flex;
+    flex-direction:row;
+    margin-left:200px;
+    gap: 0.4rem;   
+}
+.m8{
+    background-color:rgb(120,120,120,0.1);
+    height:232px;
+    width:270px;
+    margin-top:5rem;
+}
+.m8 h5{
+    margin-top:0.3rem;    
+}
+.like{
+    cursor:pointer;
+    transition:fill 0.3s ease;
+}
+.like.active{
+    fill:red;
+}
+.m9{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: left;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown.show .dropdown-content {
+    display: block;
+}
+.dropdown-content label {
+    display: block;
+    margin: 8px 0;
+}
+.small-text {
+    font-size: 10px;
+    color: gray;
+    cursor: pointer;
+    display: inline-block;
+}
+.filter-option {
+    margin: 10px 0;
+}
+.option-actions {
+    margin-top: 5px;
+}
+.m10{
+    background-color: black;
+    color:white;
+    height:600px;
+    width:940px;
+    position:relative;
+    margin-top:170px;
+    text-align: left;
+}
+.m11{
+    margin-left:70px;
+    margin-top:50px;
+    position:absolute;
+    display: flex;
+    gap:6.7rem;
+}
+.m13{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+.m15{
+    background-color: black;
+    border-top:solid 3px rgba(210,210,210,0.8);
+    margin-top:240px;
+    margin-left:70px;
+    position:absolute;    
+    display: flex;
+    gap:6rem;
+    width:800px;
+}
